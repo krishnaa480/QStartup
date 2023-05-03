@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Applicants</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- TABLE LINKS -->
+  <!---------- CHECK ASSETS ONCE IT has JS files MAY include Backend ALSO --------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    /* .bg_colour {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3798.jpg");
+        } */
+</style>
+</head>
+
+<body class="bg_colour">
+
+  <!-- toggle area start here -->
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fas fa-bars" id="btn"></i>
+    <i class="fas fa-times" id="cancel"></i>
+  </label>
+  <!-- toggle area end here -->
+
+  <nav class="navbar-side">
+
+    <div class="navigation">
+
+      <div class="user-profile">
+        <center>
+          <div class="user-area">
+            <a href="../index.html">
+              <img style="width: 5rem; border-radius: 0;" src="../img/Q-removebg-preview.png" alt="">
+            </a>
+            </div>
+        </center>
+      </div>
+
+      <!-- service part start here -->
+      <div class="service-part">
+        <ul class="links">
+          <li>
+            <i class="fa-sharp fa-solid fa-user red"></i>
+            <a href="./index.html">General</a>
+          </li>
+
+
+          <li>
+            <i class="fa-solid fa-list-ul green"></i>
+            <a href="./startup.html">Startup</a>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-q brown"></i>
+            <a class="active" href="./aplicants.html">Applicants</a>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-user-group blue"></i>
+            <a href="./mentor.html">Mentor List</a>
+          </li>
+          <li>
+            <i class="fa fa-info-circle coral" aria-hidden="true"></i>
+            <a href="./editdetails.html">Details</a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- service part end here -->
+
+      <!-- user log out btn -->
+      <div class="log-out">
+        <ul class="user-logout">
+          <li>
+            <i class="fa fa-sign-out" aria-hidden="true"></i>
+            <a href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <div class="glowing">
+    
+    <span style="--i:1;"></span>
+    
+    <span style="--i:2;"></span>
+    
+    <span style="--i:3;"></span>
+    
+  </div>
+  
+  <div class="glowing">
+    
+    <span style="--i:1;"></span>
+    
+    <span style="--i:2;"></span>
+    
+    <span style="--i:3;"></span>
+    
+  </div>
+  
+  <!-- background animation start -->
+  <div class="glowing">
+    
+    <span style="--i:1;"></span>
+    
+    <span style="--i:2;"></span>
+    
+    <span style="--i:3;"></span>
+    
+  </div>
+  
+  <div class="glowing">
+    
+    <span style="--i:1;"></span>
+    
+    <span style="--i:2;"></span>
+    
+    <span style="--i:3;"></span>
+    
+  </div>
+  
+  <div class="glowing">
+    
+    <span style="--i:1;"></span>
+    
+    <span style="--i:2;"></span>
+    
+    <span style="--i:3;"></span>
+    
+  </div>
+  
+  <div class="glowing">
+    
+    <span style="--i:1;"></span>
+    
+    <span style="--i:2;"></span>
+    
+    <span style="--i:3;"></span>
+    
+  </div>
+  <!-- background animation end -->
+
+
+  <div class="wrapper">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-11 col-md-offset-2">
+          <div class="description">
+            <h2>Career Applicants List</h2>
+          </div>
+
+          <div class="documents">
+            <table style="width:100%; border: 1px solid black; margin-top: 1rem;">
+                <tr style="border: 1px solid black;">
+                  <th>Name</th>
+                  <th>View Resume / Remove</th>
+                  <th>Job Type</th>
+                  <!-----------------Sort BY date applied------------------>
+                  <th>Date Applied</th>
+                </tr>
+                <tr>
+                  <td>Sai</td>
+                  <td>
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <i style="margin-left: 1rem;" class="fa fa-times" aria-hidden="true"></i>
+                  </td>
+                  <td>Frontend Developer</td>
+                  <td>25/12/1991</td>
+                </tr>
+                <tr>
+                  <td>Nasir</td>
+                  <td>
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <i style="margin-left: 1rem;" class="fa fa-times" aria-hidden="true"></i>
+                    
+                  </td>
+                  <td>Full Stack Developer</td>
+                  <td>08/10/1917</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- <script>
+    // Fetch data from backend
+    fetch('https://qstartupserver.onrender.com/admin/getAllStartUp?role=startUp')
+      .then(response => response.json())
+      .then(data => {
+        // Get table body element
+        console.log(data)
+        const tbody = document.querySelector('#tbody');
+
+        // Loop through data and create table rows
+        data.forEach(item => {
+          // Create new row element
+          const row = document.createElement('tr');
+
+          // Create and append cells to the row
+          const idCell = document.createElement('td');
+          idCell.textContent = item._id;
+          row.appendChild(idCell);
+
+          const nameCell = document.createElement('td');
+          nameCell.textContent = item.title;
+          row.appendChild(nameCell);
+
+          const phoneCell = document.createElement('td');
+          phoneCell.textContent = item.phone;
+          row.appendChild(phoneCell);
+
+          const contactCell = document.createElement('td');
+          contactCell.textContent = item.contact;
+          row.appendChild(contactCell);
+
+          const emailCell = document.createElement('td');
+          emailCell.textContent = item.email;
+          row.appendChild(emailCell);
+
+          const mentorCell = document.createElement('td');
+          mentorCell.textContent = item.mentor_name;
+          row.appendChild(mentorCell);
+
+          const actionsCell = document.createElement('td');
+          actionsCell.textContent = 'Actions';
+          row.appendChild(actionsCell);
+
+          // Append the new row to the table body
+          tbody.appendChild(row);
+        });
+
+        // Initialize the DataTable
+        $('#fresh-table').bootstrapTable('destroy').bootstrapTable({
+          classes: 'table table-hover table-striped',
+          toolbar: '.toolbar',
+          search: true,
+          showRefresh: true,
+          showToggle: true,
+          showColumns: true,
+          pagination: true,
+          striped: true,
+          sortable: true,
+          pageSize: 8,
+          pageList: [8, 10, 25, 50, 100],
+
+
+
+          // -----------
+          // other options...
+          pagination: true,
+          pageNumber: 1,
+          pageSize: 10,
+          pageList: [10, 25, 50, 100],
+          paginationPreText: 'Previous',
+          paginationNextText: 'Next',
+          paginationHAlign: 'right',
+          paginationDetailHAlign: 'left',
+          paginationShowPageGo: true,
+          paginationTrimType: 'middle',
+          showPaginationSwitch: true,
+          // --------
+
+
+          formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return ''
+          },
+          formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' rows visible'
+          }
+        });
+      })
+      .catch(error => console.error(error));
+  </script> -->
+
+
+  <script src="../js/Admin.js/startupHandle2.js"></script>
+</body>
+
+</html>
